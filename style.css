@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('pexels-lukas-669615.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    background-color: #1d2127;
+}
+
+.startmenu{
+    width: 100%;
+    position: absolute;
+    /* bottom: 38px; */
+    bottom: -590px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 20px;
+}
+
+.profile{
+    color: white;
+    width: 100%;
+    position: absolute;
+}
