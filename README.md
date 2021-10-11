@@ -5,3 +5,5 @@
 
 ### Clicking the task bar will popup start menu
 ![Output 2](output2.png)
+
+More functionality adding later...
